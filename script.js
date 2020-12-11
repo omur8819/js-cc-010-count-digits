@@ -15,7 +15,7 @@ function search(x, y) {
         alert("Please enter 0 or positive numbers");  
     }
     if (lower.value > higher.value) {
-        alert("Cannot be equal or greater than the number of starts and ends of the sequence")
+        alert("Cannot be greater than the number of starts and ends of the sequence")
     }
     if(digit.value >9){
         alert("Please enter digit between 0 - 9");  
