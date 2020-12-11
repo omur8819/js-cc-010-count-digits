@@ -10,7 +10,7 @@ let array = [];
 let letter_Count = 0;
 
 
-function search(x, y) {
+function search() {
     if (lower.value < 0 || higher.value < 0 || digit.value < 0) {
         alert("Please enter 0 or positive numbers");  
     }
@@ -46,21 +46,12 @@ function search(x, y) {
     array = [];
 
 }
-search(lower, higher);
+search();
 
 
-
-
- 
-
-
-
-
-// numberPreCheck1.addEventListener("keyup", enter);
-// function enter(event) {
-//     if (event.keyCode===13){
-//         check();
-//     }
-// };
-
-
+digit.addEventListener("keyup", enter);
+function enter(event) {
+    if (event.keyCode===13){
+        search();
+    }
+};
