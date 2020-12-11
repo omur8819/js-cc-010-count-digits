@@ -42,16 +42,13 @@ function search() {
     //     result.innerHTML = `The number ${digit.value} is ${count} times in the ${lower.value} - ${higher.value} series.`;
     // }
 
-
     array = [];
-
 }
 
 
-
 digit.addEventListener("keyup", enter);
-function enter(event) {
-    if (event.keyCode===13){
-        search();
-    }
+    function enter(event) {
+        if (event.keyCode===13){
+            search();
+        }
 };
