@@ -46,7 +46,7 @@ function search() {
     array = [];
 
 }
-search();
+
 
 
 digit.addEventListener("keyup", enter);
